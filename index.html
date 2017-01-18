@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Html/css Assignment 3.2</title>
+<style type="text/css">
+	
+	img
+	{
+		height:120px;
+		width:400px;
+	}
+	
+	#wbutton
+	{
+		margin-top:2px;
+		height:30px;
+		width:70px;
+	}
+	input[type=submit] 
+	{
+		background:url("wbutton.png");
+	}
+	#header
+	{
+		height: 50px;
+		width:100%;
+		background-color: grey;
+	}
+
+</style>
+</head>
+<body>
+<div id="header"></div><br>
+<header>
+	<img src="WordPress.png">
+</header>
+<section>
+	<form action="demo_form.asp" onsubmit='redirect();return false;'>
+    	<label>Upload a theme <input type="file" name="file"> </label><br>
+  		<label>Or Search in wordpress <input type="search" name="search"><input id="wbutton" type="image" name="submit" src="wbutton.png"  alt="Submit" /></label>
+  	</form>
+ </section>
+</form>
+</body>
+</html>
